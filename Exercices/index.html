@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boucles </title>
+</head>
+<body>
+    <script>
+
+        //    var table = (nombre, limite)=> {
+        //         console.log("Nombre : " + nombre);
+        //         console.log("Nombre : " + limite);
+        //       if(nombre && typeof(nombre)==="number"){
+    
+    
+                  
+        //           for (let index = 0; index < 11; index++) {
+        //               console.log(`3 * ${index} = ${index*3}`);
+                      
+        //             }
+        //         }else{
+        //             console.log('Il faut que ce soit un nombre !');
+                    
+        //         }
+        //     }
+       var table = (nombre, limite)=> {
+            console.log("Nombre : " + nombre);
+            console.log("Nombre : " + limite);
+          if(!limite && typeof(limite)==="number"){
+            // si indefini ou non number alors 
+
+            limite = 12
+
+          }
+          if(nombre && typeof(nombre)==="number"){
+
+
+              
+              for (let index = 0; index <=limite; index++) {
+                  console.log(`3 * ${index}* ${nombre} = ${index*nombre }`);
+                  
+                }+
+            }else{
+                console.log('Il faut que ce soit un nombre !');
+                
+            }
+        }
+    </script>
+
+    
+</body>
+</html>
