@@ -51,3 +51,13 @@ var daouda = {
     hobbies: ["reading", "painting", "cooking"],
     
 }
+
+var sayHello = function(person){
+    console.log("Hello, my name is " + person.username);
+    
+}
+
+var sayHelloo = function({age}){
+    console.log("Hello,  and I am " + age + " years old");
+    
+}
